@@ -1,6 +1,6 @@
 # Ultraplex-RS
 
-Ultraplex-RS 是对开源项目 Ultraplex（Ultra-fast 5' and 3' demultiplexer）的 Rust 重现与改写版本（原项目地址：https://github.com/ulelab/ultraplex）。目标是在保持核心功能与行为一致的同时，利用 Rust 的类型安全与并行生态，提供一个独立的 CLI 工具，覆盖质量修剪、UMI 抽取、5'/3' 条码匹配与分流、以及 `.fastq.gz` I/O 支持。
+Ultraplex-RS 是对开源项目 Ultraplex（Ultra-fast 5' and 3' demultiplexer）的 Rust 重现与改写版本(原项目地址：https://github.com/ulelab/ultraplex)。目标是在保持核心功能与行为一致的同时，利用 Rust 的类型安全与并行生态，提供一个独立的 CLI 工具，覆盖质量修剪、UMI 抽取、5'/3' 条码匹配与分流、以及 `.fastq.gz` I/O 支持。
 
 ## 功能特性
 
